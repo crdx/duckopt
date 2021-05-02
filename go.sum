@@ -1,6 +1,6 @@
-github.com/crdx/assert v0.0.0-20210502122105-59ab7ae73797 h1:QpXQHT4uqfy9psvrBP/PsHLdLyZ1At/0HpVEow+tZBY=
-github.com/crdx/assert v0.0.0-20210502122105-59ab7ae73797/go.mod h1:qKc8WkXakTUKVZfFhDgX+GZv5BO9W6lj8ad4kCrtpiI=
-github.com/crdx/hereduck v0.0.0-20210502141149-1f899c3d51bd h1:BfBqVzHeD3DPkkMpDD7s0axg3CBVP20Xfwe1uvLbm8w=
-github.com/crdx/hereduck v0.0.0-20210502141149-1f899c3d51bd/go.mod h1:WE/sMFMXcEfaYMGav/EBM3hC670ljeueYU/KhSO6NDc=
+github.com/crdx/assert v0.0.0-20210502143100-cbb159708cc2 h1:QyDbPE27GkQOV+TdyiE+7j77VLBpBVezIygT0i0NF4g=
+github.com/crdx/assert v0.0.0-20210502143100-cbb159708cc2/go.mod h1:qKc8WkXakTUKVZfFhDgX+GZv5BO9W6lj8ad4kCrtpiI=
+github.com/crdx/hereduck v0.0.0-20210502143315-a0e2b739b6d2 h1:DLRatGFCVAUSyXXByNBUlKxxm2wx6OnZpIkr+80eP+E=
+github.com/crdx/hereduck v0.0.0-20210502143315-a0e2b739b6d2/go.mod h1:ryOtEfNKDNuuaK+hcpLvXSIm0zQ/zQXvpgteDUuO8dA=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815 h1:bWDMxwH3px2JBh6AyO7hdCn/PkvCZXii8TGj7sbtEbQ=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:WwZ+bS3ebgob9U8Nd0kOddGdZWjyMGR8Wziv+TBNwSE=
