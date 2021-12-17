@@ -33,7 +33,9 @@ type Opts struct {
 
 func main() {
     var opts Opts
-    duckopt.Parse(getUsage(), "$0").Bind(&opts)
+    if err := duckopt.Parse(getUsage(), "$0").Bind(&opts); err != nil {
+        panic(err)
+    }
     fmt.Println(opts)
 }
 ```
