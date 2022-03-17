@@ -1,6 +1,6 @@
 # duckopt
 
-A docopt wrapper library for Go.
+**duckopt** is a docopt wrapper library for Go.
 
 ## Usage
 
