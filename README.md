@@ -39,3 +39,11 @@ func main() {
     fmt.Println(opts)
 }
 ```
+
+## Contributions
+
+Open an [issue](https://github.com/crdx/duckopt/issues) or send a [pull request](https://github.com/crdx/duckopt/pulls).
+
+## Licence
+
+[MIT](LICENCE.md).
