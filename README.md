@@ -2,6 +2,12 @@
 
 **duckopt** is a docopt wrapper library for Go.
 
+## Installation
+
+```sh
+go get github.com/crdx/duckopt
+```
+
 ## Usage
 
 ```go
