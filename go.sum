@@ -1,6 +1,6 @@
-github.com/crdx/assert v1.0.0 h1:O+8e8T+WsCkoTcc1sivXviM9FdTV2LEsbtC4pcPRqaY=
-github.com/crdx/assert v1.0.0/go.mod h1:qKc8WkXakTUKVZfFhDgX+GZv5BO9W6lj8ad4kCrtpiI=
-github.com/crdx/hereduck v1.0.0 h1:MSkh+lHsWICA4sidpGsCRb5wBXPbt8lJFcBsP59AtWg=
-github.com/crdx/hereduck v1.0.0/go.mod h1:Qvn2wBjo7qV4tqQU6ga+ZPc9LbixW5EM7DQ/xKTiEhY=
+crdx.org/assert v1.0.2 h1:8xfKFiGh5jAykD2ZHa34xtS5vA4WK3WZiikZHURS2OY=
+crdx.org/assert v1.0.2/go.mod h1:2l2arhfoQXp28IfNabHlaaKBt3FOl5toxHYZFzh//ZM=
+crdx.org/hereduck v1.0.2 h1:pauDrQW9yl/88FBbso8BcRMqUg2kIYiN5zDQnLVY8YE=
+crdx.org/hereduck v1.0.2/go.mod h1:2fivrgLUDy5jWuSEkFJGtYOKp9GYlmayDfyHYS1pPSI=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815 h1:bWDMxwH3px2JBh6AyO7hdCn/PkvCZXii8TGj7sbtEbQ=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:WwZ+bS3ebgob9U8Nd0kOddGdZWjyMGR8Wziv+TBNwSE=

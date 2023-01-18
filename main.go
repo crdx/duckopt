@@ -2,7 +2,7 @@ package duckopt
 
 import (
 	"fmt"
-	"github.com/crdx/hereduck"
+	"crdx.org/hereduck"
 	"github.com/docopt/docopt-go"
 	"log"
 	"os"

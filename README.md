@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-go get github.com/crdx/duckopt
+go get crdx.org/duckopt
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ go get github.com/crdx/duckopt
 ```go
 import (
     "fmt"
-    "github.com/crdx/duckopt"
+    "crdx.org/duckopt"
 )
 
 func getUsage() string {
