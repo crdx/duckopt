@@ -3,6 +3,6 @@ module crdx.org/duckopt
 go 1.16
 
 require (
-	crdx.org/hereduck v1.0.2
+	crdx.org/hereduck v1.0.3
 	github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815
 )
