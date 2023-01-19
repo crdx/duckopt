@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-go get crdx.org/duckopt
+go get crdx.org/duckopt/v2
 ```
 
 ## Usage
@@ -13,6 +13,7 @@ go get crdx.org/duckopt
 ```go
 import (
     "fmt"
+
     "crdx.org/duckopt"
 )
 
@@ -38,11 +39,8 @@ type Opts struct {
 }
 
 func main() {
-    var opts Opts
-    if err := duckopt.Parse(getUsage(), "$0").Bind(&opts); err != nil {
-        panic(err)
-    }
-    fmt.Println(opts)
+    opts := duckopt.MustBind[Opts](getUsage(), "$0")
+    fmt.Printf("%+v\n", opts)
 }
 ```
 

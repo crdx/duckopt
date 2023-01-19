@@ -1,6 +1,6 @@
-module crdx.org/duckopt
+module crdx.org/duckopt/v2
 
-go 1.16
+go 1.19
 
 require (
 	crdx.org/hereduck v1.0.3
