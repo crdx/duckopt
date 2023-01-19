@@ -14,7 +14,7 @@ go get crdx.org/duckopt/v2
 import (
     "fmt"
 
-    "crdx.org/duckopt"
+    "crdx.org/duckopt/v2"
 )
 
 func getUsage() string {
