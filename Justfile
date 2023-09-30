@@ -1,2 +1,3 @@
-_help:
-    @just --list --unsorted
+[private]
+@help:
+    just --list --unsorted
