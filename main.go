@@ -41,6 +41,7 @@ func MustBind[T any](usage string, placeholder ...string) *T {
 // of the program.
 func Parse(usage string, placeholder ...string) (docopt.Opts, error) {
 	usage = hereduck.D(usage)
+	usage = strings.ReplaceAll(usage, "\t", "    ")
 
 	if len(placeholder) > 0 {
 		usage = strings.Replace(usage, placeholder[0], path.Base(os.Args[0]), -1)
