@@ -50,7 +50,7 @@ func Parse(usage string, placeholder ...string) (docopt.Opts, error) {
 	parser := &docopt.Parser{
 		HelpHandler: func(_ error, _ string) {
 			fmt.Print(usage)
-			os.Exit(2)
+			os.Exit(0)
 		},
 	}
 
