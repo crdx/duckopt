@@ -26,7 +26,6 @@ func getUsage() string {
             --dry-run         Do a dry run
             -v, --verbose     Be verbose
             -C, --no-color    Disable colours
-            -h, --help        Show help
     `
 }
 
