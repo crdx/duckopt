@@ -20,21 +20,17 @@ import (
 func getUsage() string {
     return `
         Usage:
-            $0 [options] command <arg>
+            $0 [options] run <task>
 
         Options:
-            --dry-run         Do a dry run
-            -v, --verbose     Be verbose
-            -C, --no-color    Disable colours
+            -v, --verbose    Be verbose
     `
 }
 
 type Opts struct {
-    Command bool   `docopt:"command"`
-    Arg     string `docopt:"<arg>"`
-    DryRun  bool   `docopt:"--dry-run"`
+    Command bool   `docopt:"run"`
+    Arg     string `docopt:"<task>"`
     Verbose bool   `docopt:"--verbose"`
-    NoColor bool   `docopt:"--no-color"`
 }
 
 func main() {
