@@ -44,7 +44,7 @@ func Parse(usage string, placeholder ...string) (docopt.Opts, error) {
 	usage = strings.ReplaceAll(usage, "\t", "    ")
 
 	if len(placeholder) > 0 {
-		usage = strings.Replace(usage, placeholder[0], path.Base(os.Args[0]), -1)
+		usage = strings.ReplaceAll(usage, placeholder[0], path.Base(os.Args[0]))
 	}
 
 	parser := &docopt.Parser{
